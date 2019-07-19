@@ -1,0 +1,12 @@
+1.windows命令行，进入到有trang.jar的目录
+
+2.执行以下命令：java -jar trang.jar recordQuery.xml recordQuery.xsd
+注：recordQuery.xml为源文件，recordQuery.xsd为目标文件
+
+3.使用Jaxb将xsd转成Bean
+进入xsd文件的目录中
+执行以下命令：xjc -p com.example.xlm01.domain 001.xsd -d demo
+注：xjc -p 包的路径 xsd文件 -d 目标文件夹
+
+
+不好用，得到的demo下的内容，不太美观

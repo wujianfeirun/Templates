@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="demo1">
+        <MsgHeader>
+            <MsgId>31310000001311</MsgId>
+            <MsgType>11</MsgType>
+            <SignSN>313100000013</SignSN>
+        </MsgHeader>
+        <MsgBody>
+            <InstgAcctNm>客户备付金</InstgAcctNm>
+            <ResfdAcctIssrId>C1010511003703</ResfdAcctIssrId>
+        </MsgBody>
+</root>

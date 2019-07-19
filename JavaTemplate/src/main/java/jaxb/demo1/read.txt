@@ -1,0 +1,7 @@
+1. xml中带有xmlns的话，要在@XmlRootElement上设置namespace属性；
+@XmlRootElement(name = "root",namespace="demo1")
+@XmlAccessorType(XmlAccessType.NONE)
+public class Root {
+}
+
+2.
